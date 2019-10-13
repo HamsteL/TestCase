@@ -10,7 +10,6 @@ using System.Data;
 
 namespace DocLib
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
     [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
     public class DocService : IService1
     {
